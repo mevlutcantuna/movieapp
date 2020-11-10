@@ -1,0 +1,21 @@
+.homePage{
+    position: relative;
+
+    &__search{
+        position: absolute;
+        top: 28rem;
+        left: calc((100vw - 50rem)/2);
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .homePage__search{
+        position: absolute;
+        left: calc((100% - 18rem)/2);
+    }
+
+    .homePage__searchMovie{
+        margin-top: 17rem;
+    }
+}
+
